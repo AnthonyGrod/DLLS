@@ -1,0 +1,3 @@
+## Project Aim
+
+This project investigates the performance of U-Nets for cell image segmentation using grayscale microscopic images from the CellSeg dataset. We compare the classical UNet architecture with a Residual Attention UNet, which incorporates residual connections, attention gates, Swish activation, and group normalization. Our results suggest that Residual U-Net with our custom loss function significantly outperform classical U-Nets in cell segmentation task under many popular metrics such as $AP$, $IoU$, $Precision$, $Recall$ and others.
